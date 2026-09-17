@@ -60,7 +60,7 @@ usar_viento = st.sidebar.checkbox("Usar viento", value=True)
 variables = [v for v, usar in [
     ("temperatura", usar_temp),
     ("humedad", usar_humedad),
-    ("viento", usar_viento),
+   
 ] if usar]
 
 if len(variables) == 0:
